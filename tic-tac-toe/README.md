@@ -1,3 +1,8 @@
+# tic-tac-toe
+
+## Description
+This is a tic-tac-toe game built with React. It was built following the tutorial at https://reactjs.org/tutorial/tutorial.html. The tutorial was a great introduction to React and I learned a lot about the framework. I also learned a lot about JavaScript and CSS. I had a lot of fun building this game and I am excited to continue learning React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
