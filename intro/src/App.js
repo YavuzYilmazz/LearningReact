@@ -1,13 +1,15 @@
 import React from 'react';
+import Navi from './Navi';
+import CategoryList from './CategoryList';
+import ProductList from './ProductList';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, world!
-        </p>
-      </header>
+      <Navi/>
+      <CategoryList/>
+      <ProductList/>
     </div>
   );
 }
