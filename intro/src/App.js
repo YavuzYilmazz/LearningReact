@@ -6,11 +6,11 @@ import ProductList from "./ProductList";
 import { Container, Row, Col } from "reactstrap";
 
 export default class App extends Component {
-state={currentCategory:""}
+  state = { currentCategory: "" };
 
-changeCategory = (category) => {
-  this.setState({currentCategory:category.CategoryName})
-  }
+  changeCategory = (category) => {
+    this.setState({ currentCategory: category.CategoryName });
+  };
 
   render() {
     let CategoryInfo = { title: "Category List" };
@@ -25,10 +25,17 @@ changeCategory = (category) => {
           </Row>
           <Row>
             <Col md="3">
-              <CategoryList   currentCategory={this.state.currentCategory} changeCategory={this.changeCategory} info={CategoryInfo} />
+              <CategoryList
+                currentCategory={this.state.currentCategory}
+                changeCategory={this.changeCategory}
+                info={CategoryInfo}
+              />
             </Col>
             <Col md="9">
-              <ProductList info={ProductInfo} currentCategory={this.state.currentCategory} />
+              <ProductList
+                info={ProductInfo}
+                currentCategory={this.state.currentCategory}
+              />
             </Col>
           </Row>
         </Container>

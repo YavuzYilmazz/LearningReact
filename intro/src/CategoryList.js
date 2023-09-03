@@ -6,23 +6,23 @@ export default class CategoryList extends Component {
     categories: [
       { CategoryId: 1, CategoryName: "Beverages" },
       { CategoryId: 2, CategoryName: "Foods" },
-    ]
+    ],
   };
 
-
-  
   render() {
     return (
       <div>
         <h3>{this.props.info.title}</h3>
         <ListGroup>
           {this.state.categories.map((category) => (
-            <ListGroupItem onClick={()=>this.props.changeCategory(category)} key={category.CategoryId}>
+            <ListGroupItem
+              onClick={() => this.props.changeCategory(category)}
+              key={category.CategoryId}
+            >
               {category.CategoryName}
             </ListGroupItem>
           ))}
         </ListGroup>
-        <h4>{this.props.currentCategory}</h4>
       </div>
     );
   }
