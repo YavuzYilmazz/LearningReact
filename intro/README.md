@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my first React App.
+Basic React App with a few components and a simple form.
 
 # Getting Started with Create React App
 
