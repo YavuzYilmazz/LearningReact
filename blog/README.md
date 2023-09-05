@@ -1,7 +1,7 @@
 # Blog
 
 ## Description
-The first app I've made myself without using any guides or tutorials. It's a simple blog app that allows you to create, edit, and delete blog posts.
+Firstly im sorry for Ui and css. The first app I've made myself without using any guides or tutorials. It's a simple blog app that allows you to create, edit, and delete blog posts.
 
 ## Used Technologies
 React + Typescript = <mark>❤</mark>
