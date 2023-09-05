@@ -1,0 +1,41 @@
+/* Header.css */
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+.header-container {
+    background: linear-gradient(90deg, #6833c9, #0046a0);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .header-button {
+    background-color: #ff5722;
+    color: #fff; /* Yazı rengini beyaz olarak ayarladık */
+    border: none;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; /* Buttonlar arasındaki boşluğu artırmak için margin ekledik */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header-button:hover {
+    background-color: #d84315;
+    color: #fff; /* Düğme üzerine gelindiğinde yazı rengini beyaz olarak ayarladık */
+  }
+  
