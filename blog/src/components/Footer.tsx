@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import "./../Ui/Footer.css";
 
 export default class Footer extends Component {
   render() {
     return (
-      <div>
-
-
-      </div>
-    )
+      <footer className="footer-container">
+      <p>Developed by Yavuz Yılmaz</p>
+      <a href="https://www.linkedin.com/in/yavuz-yilmazz/" target="_blank" rel="noopener noreferrer">
+        <button className="footer-button">Go to Linkedin</button>
+      </a>
+    </footer>
+    );
   }
 }

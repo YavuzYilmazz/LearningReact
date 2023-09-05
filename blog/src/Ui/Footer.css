@@ -1,0 +1,30 @@
+/* ./src/Ui/Footer.css */
+
+/* ./src/Ui/Footer.css */
+
+.footer-container {
+    background: linear-gradient(90deg, #6833c9, #010915);    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  .footer-button {
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .footer-button:hover {
+    background-color: #005983;
+  }
+  
